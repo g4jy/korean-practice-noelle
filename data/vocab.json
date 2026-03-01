@@ -119,6 +119,144 @@
         "rom": "MUL",
         "en": "water",
         "category": "drink"
+      },
+      {
+        "kr": "오늘",
+        "rom": "O-NEUL",
+        "en": "today",
+        "category": "general"
+      },
+      {
+        "kr": "어제",
+        "rom": "EO-JE",
+        "en": "yesterday",
+        "category": "general"
+      },
+      {
+        "kr": "식당",
+        "rom": "SIK-DANG",
+        "en": "restaurant",
+        "category": "general"
+      },
+      {
+        "kr": "헬스장",
+        "rom": "HEL-SEU-JANG",
+        "en": "gym",
+        "category": "general"
+      },
+      {
+        "kr": "학교",
+        "rom": "HAK-GYO",
+        "en": "school",
+        "category": "general"
+      },
+      {
+        "kr": "카페",
+        "rom": "KA-PE",
+        "en": "cafe",
+        "category": "general"
+      },
+      {
+        "kr": "떡볶이",
+        "rom": "DDOK-BOK-KI",
+        "en": "tteokbokki (spicy rice cakes)",
+        "category": "general"
+      },
+      {
+        "kr": "불고기",
+        "rom": "BUL-GO-GI",
+        "en": "bulgogi (marinated beef)",
+        "category": "general"
+      },
+      {
+        "kr": "족발",
+        "rom": "JOK-BAL",
+        "en": "jokbal (braised pig's feet)",
+        "category": "general"
+      },
+      {
+        "kr": "밥상",
+        "rom": "BAP-SANG",
+        "en": "traditional low dining table",
+        "category": "general"
+      },
+      {
+        "kr": "책상",
+        "rom": "CHAEK-SANG",
+        "en": "desk",
+        "category": "general"
+      },
+      {
+        "kr": "상",
+        "rom": "SANG",
+        "en": "table/surface (traditional)",
+        "category": "general"
+      },
+      {
+        "kr": "바지",
+        "rom": "BA-JI",
+        "en": "pants / trousers",
+        "category": "general"
+      },
+      {
+        "kr": "한복",
+        "rom": "HAN-BOK",
+        "en": "traditional Korean clothing",
+        "category": "general"
+      },
+      {
+        "kr": "콘서트",
+        "rom": "KON-SEO-TEU",
+        "en": "concert (loanword)",
+        "category": "general"
+      },
+      {
+        "kr": "티셔츠",
+        "rom": "TI-SYEO-CHEU",
+        "en": "T-shirt (loanword)",
+        "category": "general"
+      },
+      {
+        "kr": "드라마",
+        "rom": "DEU-RA-MA",
+        "en": "drama / TV series (loanword)",
+        "category": "general"
+      },
+      {
+        "kr": "눈물",
+        "rom": "NUN-MUL",
+        "en": "tears",
+        "category": "general"
+      },
+      {
+        "kr": "여왕",
+        "rom": "YEO-WANG",
+        "en": "queen",
+        "category": "general"
+      },
+      {
+        "kr": "눈물의 여왕",
+        "rom": "NUN-MUL-EUI YEO-WANG",
+        "en": "Queen of Tears (Netflix drama)",
+        "category": "general"
+      },
+      {
+        "kr": "이야기",
+        "rom": "I-YA-GI",
+        "en": "story",
+        "category": "general"
+      },
+      {
+        "kr": "결혼",
+        "rom": "GYEOL-HON",
+        "en": "marriage",
+        "category": "general"
+      },
+      {
+        "kr": "외래어",
+        "rom": "OE-RAE-EO",
+        "en": "loanword",
+        "category": "general"
       }
     ],
     "verbs": [
@@ -170,6 +308,157 @@
         "future": "마실 거예요",
         "futureRom": "MA-SIL GGEO-YE-YO",
         "futureEn": "will drink"
+      },
+      {
+        "id": "meokda",
+        "en": "eat",
+        "objectTypes": [
+          "food"
+        ],
+        "placeParticle": "eseo",
+        "past": "먹었어요",
+        "pastRom": "MEO-GEO-SSEO-YO",
+        "pastEn": "ate",
+        "present": "먹어요",
+        "presentRom": "MEO-GEO-YO",
+        "presentEn": "eat",
+        "future": "먹을 거예요",
+        "futureRom": "MEO-GEUL GGEO-YE-YO",
+        "futureEn": "will eat"
+      },
+      {
+        "id": "masida",
+        "en": "drink",
+        "objectTypes": [
+          "drink"
+        ],
+        "placeParticle": "eseo",
+        "past": "마셨어요",
+        "pastRom": "MA-SYEO-SSEO-YO",
+        "pastEn": "drank",
+        "present": "마셔요",
+        "presentRom": "MA-SYEO-YO",
+        "presentEn": "drink",
+        "future": "마실 거예요",
+        "futureRom": "MA-SIL GGEO-YE-YO",
+        "futureEn": "will drink"
+      },
+      {
+        "id": "gada",
+        "en": "go",
+        "objectTypes": [],
+        "placeParticle": "e",
+        "past": "갔어요",
+        "pastRom": "GA-SSEO-YO",
+        "pastEn": "went",
+        "present": "가요",
+        "presentRom": "GA-YO",
+        "presentEn": "go",
+        "future": "갈 거예요",
+        "futureRom": "GAL GGEO-YE-YO",
+        "futureEn": "will go"
+      },
+      {
+        "id": "boda",
+        "en": "watch/see",
+        "objectTypes": [
+          "thing"
+        ],
+        "placeParticle": "eseo",
+        "past": "봤어요",
+        "pastRom": "BWA-SSEO-YO",
+        "pastEn": "watched",
+        "present": "봐요",
+        "presentRom": "BWA-YO",
+        "presentEn": "watch",
+        "future": "볼 거예요",
+        "futureRom": "BOL GGEO-YE-YO",
+        "futureEn": "will watch"
+      },
+      {
+        "id": "sada",
+        "en": "buy",
+        "objectTypes": [
+          "food",
+          "drink"
+        ],
+        "placeParticle": "eseo",
+        "past": "샀어요",
+        "pastRom": "SA-SSEO-YO",
+        "pastEn": "bought",
+        "present": "사요",
+        "presentRom": "SA-YO",
+        "presentEn": "buy",
+        "future": "살 거예요",
+        "futureRom": "SAL GGEO-YE-YO",
+        "futureEn": "will buy"
+      },
+      {
+        "id": "deutda",
+        "en": "listen",
+        "objectTypes": [
+          "thing"
+        ],
+        "placeParticle": "eseo",
+        "past": "들었어요",
+        "pastRom": "DEU-REO-SSEO-YO",
+        "pastEn": "listened",
+        "present": "들어요",
+        "presentRom": "DEU-REO-YO",
+        "presentEn": "listen",
+        "future": "들을 거예요",
+        "futureRom": "DEU-REUL GGEO-YE-YO",
+        "futureEn": "will listen"
+      },
+      {
+        "id": "juda",
+        "en": "give",
+        "objectTypes": [
+          "drink",
+          "thing"
+        ],
+        "placeParticle": "eseo",
+        "past": "줬어요",
+        "pastRom": "JWEOSS-EO-YO",
+        "pastEn": "gave",
+        "present": "줘요",
+        "presentRom": "JWEO-YO",
+        "presentEn": "give",
+        "future": "줄 거예요",
+        "futureRom": "JUL GGEO-YE-YO",
+        "futureEn": "will give"
+      },
+      {
+        "id": "batda",
+        "en": "receive",
+        "objectTypes": [
+          "thing"
+        ],
+        "placeParticle": "eseo",
+        "past": "받았어요",
+        "pastRom": "BAD-ASS-EO-YO",
+        "pastEn": "received",
+        "present": "받아요",
+        "presentRom": "BAD-A-YO",
+        "presentEn": "receive",
+        "future": "받을 거예요",
+        "futureRom": "BAD-EUL GGEO-YE-YO",
+        "futureEn": "will receive"
+      },
+      {
+        "id": "swida",
+        "en": "rest",
+        "objectTypes": [],
+        "placeParticle": "eseo",
+        "past": "쉬었어요",
+        "pastRom": "SWI-EO-SSEO-YO",
+        "pastEn": "rested",
+        "present": "쉬어요",
+        "presentRom": "SWI-EO-YO",
+        "presentEn": "rest",
+        "future": "쉴 거예요",
+        "futureRom": "SWIL GGEO-YE-YO",
+        "futureEn": "will rest"
       }
     ]
   },
@@ -198,6 +487,144 @@
         "rom": "MUL",
         "en": "Water",
         "category": "drink"
+      },
+      {
+        "kr": "오늘",
+        "rom": "O-NEUL",
+        "en": "Today",
+        "category": "general"
+      },
+      {
+        "kr": "어제",
+        "rom": "EO-JE",
+        "en": "Yesterday",
+        "category": "general"
+      },
+      {
+        "kr": "식당",
+        "rom": "SIK-DANG",
+        "en": "Restaurant",
+        "category": "general"
+      },
+      {
+        "kr": "헬스장",
+        "rom": "HEL-SEU-JANG",
+        "en": "Gym",
+        "category": "general"
+      },
+      {
+        "kr": "학교",
+        "rom": "HAK-GYO",
+        "en": "School",
+        "category": "general"
+      },
+      {
+        "kr": "카페",
+        "rom": "KA-PE",
+        "en": "Cafe",
+        "category": "general"
+      },
+      {
+        "kr": "떡볶이",
+        "rom": "DDOK-BOK-KI",
+        "en": "Tteokbokki (spicy rice cakes)",
+        "category": "general"
+      },
+      {
+        "kr": "불고기",
+        "rom": "BUL-GO-GI",
+        "en": "Bulgogi (marinated beef)",
+        "category": "general"
+      },
+      {
+        "kr": "족발",
+        "rom": "JOK-BAL",
+        "en": "Jokbal (braised pig's feet)",
+        "category": "general"
+      },
+      {
+        "kr": "밥상",
+        "rom": "BAP-SANG",
+        "en": "Traditional low dining table",
+        "category": "general"
+      },
+      {
+        "kr": "책상",
+        "rom": "CHAEK-SANG",
+        "en": "Desk",
+        "category": "general"
+      },
+      {
+        "kr": "상",
+        "rom": "SANG",
+        "en": "Table/surface (traditional)",
+        "category": "general"
+      },
+      {
+        "kr": "바지",
+        "rom": "BA-JI",
+        "en": "Pants / trousers",
+        "category": "general"
+      },
+      {
+        "kr": "한복",
+        "rom": "HAN-BOK",
+        "en": "Traditional korean clothing",
+        "category": "general"
+      },
+      {
+        "kr": "콘서트",
+        "rom": "KON-SEO-TEU",
+        "en": "Concert (loanword)",
+        "category": "general"
+      },
+      {
+        "kr": "티셔츠",
+        "rom": "TI-SYEO-CHEU",
+        "en": "T-shirt (loanword)",
+        "category": "general"
+      },
+      {
+        "kr": "드라마",
+        "rom": "DEU-RA-MA",
+        "en": "Drama / tv series (loanword)",
+        "category": "general"
+      },
+      {
+        "kr": "눈물",
+        "rom": "NUN-MUL",
+        "en": "Tears",
+        "category": "general"
+      },
+      {
+        "kr": "여왕",
+        "rom": "YEO-WANG",
+        "en": "Queen",
+        "category": "general"
+      },
+      {
+        "kr": "눈물의 여왕",
+        "rom": "NUN-MUL-EUI YEO-WANG",
+        "en": "Queen of tears (netflix drama)",
+        "category": "general"
+      },
+      {
+        "kr": "이야기",
+        "rom": "I-YA-GI",
+        "en": "Story",
+        "category": "general"
+      },
+      {
+        "kr": "결혼",
+        "rom": "GYEOL-HON",
+        "en": "Marriage",
+        "category": "general"
+      },
+      {
+        "kr": "외래어",
+        "rom": "OE-RAE-EO",
+        "en": "Loanword",
+        "category": "general"
       }
     ],
     "adjectives": [
@@ -226,6 +653,36 @@
         "kr": "차가워요",
         "rom": "CHA-GA-WO-YO",
         "en": "cold",
+        "compatibleSubjects": [
+          "food",
+          "drink"
+        ]
+      },
+      {
+        "id": "cool___impressive",
+        "kr": "멋있어요",
+        "rom": "MEO-SI-SSE-O-YO",
+        "en": "cool / impressive",
+        "compatibleSubjects": [
+          "food",
+          "drink"
+        ]
+      },
+      {
+        "id": "beautiful",
+        "kr": "아름다워요",
+        "rom": "A-REUM-DA-WO-YO",
+        "en": "beautiful",
+        "compatibleSubjects": [
+          "food",
+          "drink"
+        ]
+      },
+      {
+        "id": "sad",
+        "kr": "슬프다",
+        "rom": "SEUL-PEU-DA",
+        "en": "sad",
         "compatibleSubjects": [
           "food",
           "drink"
@@ -339,6 +796,26 @@
             "kr": "다섯",
             "rom": "DA-SEOT",
             "en": "five"
+          }
+        ]
+      },
+      {
+        "name": "Expressions",
+        "cards": [
+          {
+            "kr": "사랑해요",
+            "rom": "SA-RANG-HAE-YO",
+            "en": "I love you"
+          },
+          {
+            "kr": "파이팅",
+            "rom": "PA-I-TING",
+            "en": "fighting / you've got this"
+          },
+          {
+            "kr": "맞아요",
+            "rom": "MAJ-A-YO",
+            "en": "that's right / correct"
           }
         ]
       }
